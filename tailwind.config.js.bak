@@ -1,0 +1,14 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        gold: "#d4af37",
+        angola: "#c8102e",
+        dark: "#000000",
+        neon: "#00f2ff",
+      },
+    },
+  },
+};
